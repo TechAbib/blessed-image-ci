@@ -16,12 +16,12 @@ acr_name=appsvcbuildacr
 plan_name=appsvcbuild-plan
 
 image_name=${stack}:${version}
-task_name=appsvcbuild-${stack}-hostingstart-${version-dash}-task
+task_name=appsvcbuild-${stack}-hostingstart-${version_dash}-task
 site_name=appsvcbuild-${stack}-hostingstart-${version_dash}-site
 webhook_name=appsvcbuild${stack}hostingstart${version_blank}wh
 
 app_image_name=${stack}app:${version}
-app_task_name=appsvcbuild-${stack}-app-${version-dash}-task
+app_task_name=appsvcbuild-${stack}-app-${version_dash}-task
 app_site_name=appsvcbuild-${stack}-app-${version_dash}-site
 app_webhook_name=appsvcbuild${stack}app${version_blank}wh
 
